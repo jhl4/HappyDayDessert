@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset ="utf-8">
+    <meta name="author" content="Jeffrey Li">
+    <meta name="keywords" content="Happy Day Dessert Factory, Ice Cream, Pittsburgh">
+    <meta name="description" content="Happy Day Dessert Factory is a top tier Ice Cream Shop in Pittsburgh. Open 12pm-8pm daily">
+
+    <!--external stylesheets for fonts and AOS library-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--local stylesheets-->
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+    
+    <!--external and internal javascript-->
+    <script src="js/jquery-3.6.4.min.js"></script>  
+    <script src="js/jquery-ui.min.js"></script> 
+    <script src="js/scripts.js"></script>   
+
+    <title> Happy Day Desert Factory Menu</title>
+
+</head>
+<body>
+
+    <header> 
+      
+        <nav>
+          <div class="navContainer">
+          <img src="images/updatedLogo.png" alt="logo">
+          <h1> Happy Day Dessert Factory </h1>
+          <ul class="navContainer">
+          <li class="items"><a href="index.html"> Home</a></li>
+          <li class="items"><a href="story.html"> Our Story</a></li>
+          <li class="items"><a class="selected" href="menu.html"> Menu</a></li>
+          <li class="items"><a href="store.html"> Promotions</a></li>
+          <li class="items"><a href="contact.html"> Contact Us</a></li>
+          </ul>
+          </div>
+      </nav>
+  
+      </header>
+      
+    
+    <main>
+    <div id="topRow">
+        <h2 data-aos="zoom-in" data-aos-duration="2000">Our Menu</h2>
+        <hr>
+    </div>
+
+    <div id="menuContent">
+      <div id="accordion">
+      <h3 tabindex="0">Ice Cream Flavors</h3>
+
+      <div id="tab1">
+        <div class="menuItem"> 
+            <table>
+                <tr>
+                   <th class="itemName">Triple Chocolate Mousse</th>
+                   <th class="itemDes">Dark Chocolate, Milk Chocolate and Semi-Sweet chocolate all mixed into a chocolate
+                    mousse base to brighten up your day
+                   </th>
+                   <th class="itemPrice">$3.60</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Cherry Vanilla</th>
+                    <th class="itemDes">
+                        A piece of cherry in every bite without ever having to worry about the seeds!
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                 </tr>
+                 <tr>
+                    <th class="itemName">Birthday Cake</th>
+                    <th class="itemDes">
+                        Cake Batter Ice Cream with rainbow sprinkles and cake pieces!
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                 </tr>
+                 <tr>
+                    <th class="itemName">Chocolate Reese's Peanut Butter Cup</th>
+                    <th class="itemDes">
+                        Reese's Peanut Butter Cup captured perfectly!
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                 </tr>
+                 <tr>
+                    <th class="itemName">Apple Pie</th>            
+                    <th class="itemDes">
+                        Apples and Cinnamon captured perfectly on a cone!
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                 </tr>
+                 <tr>
+                    <th class="itemName">Mocha Fudge Pie</th>
+                    <th class="itemDes">
+                        Coffee, Chocolate Chip Cookies, Fudge ripple. Enough said
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                 </tr>
+            </table>
+        </div>
+        </div>
+
+        <h3 tabindex="6">Dairy Free Options</h3>
+        <div tabindex="6" id="tab2">
+        <div class="menuItem">
+            <table>
+                <tr>
+                    <th class="itemName">Mango Water Ice</th>
+                    <th class="itemDes">
+                        Blended puree and fresh mango mixed together perfectly!
+                    </th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Lemon Water Ice</th>
+                    <th class="itemDes">
+                        Fresh lemons blended to refreshing perfection!
+                    </th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Blue Raspberry Water Ice</th>
+                    <th class="itemDes">
+                        Beautifully delicious!
+                    </th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Gummy Fish Water Ice</th>
+                    <th class="itemDes">
+                        Taste just like your favorite gummy candy.
+                    </th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Almond Milk Soft Serve</th>
+                    <th class="itemDes">
+                        Dairy Free Soft Serve great for Vegans!
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Dannon Yocream Frozen Yogurt</th>
+                    <th class="itemDes">
+                        Not Dairy Free but a little less guilt than our Ice Cream and Custard!
+                    </th>
+                    <th class="itemPrice">$3.60</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Granny's Green Apple Water Ice</th>
+                    <th class="itemDes">
+                        Granny's favorite flavor!
+                    </th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+        <h3>Frozen Cakes</h3>
+        <div id="tab3">
+        <div class="menuItem">
+            <table>
+                <tr>
+                    <th class="itemName">Your Custom Cake in 72 Hours</th>
+                    <th class="itemDes">
+                        Design your own masterpiece: 1. Yellow or Chocolate Cake. 2. Premium Hard Ice Cream, Frozen Soft Custard, Frozen Almond Milk Soft Serve 3. Butter Cream Icing, 
+                        Frozen Soft Custard Icing, Frozen Almond Milk Soft Serve Icing 4. Custom theme or design, Topping or Inclusion.
+                    </th>
+                    <th class="itemPrice">$46.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Birthday Bash</th>
+                    <th class="itemDes">
+                        Yellow Cake, Birthday Cake Premium Hard Ice Cream, Vanilla Frozen Custard Icing and decorated with Rainbow Sprinkles.
+                    </th>    
+                    <th class="itemPrice">$36.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Strawberry Short Cake</th>
+                    <th class="itemDes">
+                        Yellow Cake, Strawberry Premium Hard Ice Cream, Vanilla Frozen Custard Icing decorated with fresh strawberry topping.
+                    </th>
+                    <th class="itemPrice">$36.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Cookies & Cream</th>
+                    <th class="itemDes">
+                        Chocolate Cake, Cookies & Cream Hard Ice Cream, Vanilla Frozen Custard Icing decorated with Oreo Cookies and Oreo Cookie Crumbs.
+                    </th>
+                    <th class="itemPrice">$36.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Triple Chocolate Cake</th>
+                    <th class="itemDes">
+                        Chocolate Cake, Triple Chocolate Mousse Hard Ice Cream, Chocolate Frozen Custard Icing decorated with Chocolate Sprinkles, Chocolate Shavings and Chocolate Chips.
+                    </th>
+                    <th class="itemPrice">$36.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Toffee Coffee</th>
+                    <th class="itemDes">
+                        Chocolate Cake, Heath Premium Hard Ice Cream, Chocolate Frozen Custard Icing decorated with Heath Bar Crumbs.
+                    </th>
+                    <th class="itemPrice">$36.00</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+      <h3>Fresh Baked Cookies</h3>
+      <div id="tab4">
+        <div class="menuItem">
+            <table>
+                <tr>
+                    <th class="itemName">Chocolate Chunk</th>
+                    <th class="itemPrice">$1.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">White Chocolate Macadamian Nut</th>
+                    <th class="itemPrice">$1.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Oatmeal Raisin</th>
+                    <th class="itemPrice">$1.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Sugar Cookie</th>
+                    <th class="itemPrice">$1.00</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <h3>Specialty Treats</h3>
+    <div id="tab5">
+        <div class="menuItem">
+            <table>
+                <tr>
+                    <th class="itemName">Stacker</th>
+                    <th class="itemDes">
+                        A Stacker is made with a base layer of frozen custard followed by any single or combination 
+                        (the number of flavors allowed depends on the size Stacker ordered) of water ice topped off 
+                        with a layer of frozen custard.
+                    </th>
+                    <th class="itemPrice">$4.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Ice Shake</th>
+                    <th class="itemDes">
+                        Ice Shakes are a blended combination of custard or water and any flavor(s) of water ice.
+                    </th>
+                    <th class="itemPrice">$4.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Twister</th>
+                    <th class="itemDes">
+                        A Twister is a blended combination of any soft serve, 
+                        hard ice cream and or any flavor(s) of water ice and cookie pieces or toppings.
+                    </th>
+                    <th class="itemPrice">$4.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Premium Hard Ice Cream Sandwich</th>
+                    <th class="itemDes">
+                        Our Premium Hard Ice Cream Sandwiches are made to order and include your choice of 
+                        Premium Hard Ice Cream and any variety of cookie.
+                    </th>
+                    <th class="itemPrice">$5.00</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <h3>Frozen Custard Sandwiches</h3>
+    <div id="tab6">
+        <div class="menuItem">
+            <table>
+                <tr>
+                    <th class="itemName">Oreo Wafer with Vanilla Custard</th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Oreo Wafer with Chocolate Custard</th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Chocolate Chip with Vanilla Custard</th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+                <tr>
+                    <th class="itemName">Chocolate Chip with Chocolate Custard</th>
+                    <th class="itemPrice">$3.00</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    </div>
+
+    <div id="content2">
+        <p>Order our items online on <a href="https://www.grubhub.com/restaurant/happy-day-dessert-factory-906a-western-avenue-pittsburgh/3083036" target="_blank">Grubhub</a>!</p>
+    </div>
+
+    </div>
+    </main>
+
+   
+
+
+    <footer>
+        <div class="col"> 
+          <h4>Address</h4>
+          <p>906A Western Ave. <br>
+  
+            Pittsburgh, PA 
+            
+            15233<br> </p>
+        </div>
+        <div class="col"> 
+          <h4>Contact</h4>
+          <p><a href="mailto:info@happydaydessertfactory.com">info@happydaydesertfactory.com</a><br> Tel: 412-872-0117 </p>
+        </div>
+        <div class="col"> 
+          <h4>Hours</h4>
+          <p>Take Out and Dine in <br> Available
+             12PM-8PM<br> </p>
+        </div>
+  
+      </footer>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+      <script>
+        AOS.init();
+      </script>
+
+</body> 
+
+</html>
+

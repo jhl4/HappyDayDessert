@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    background: #fdf5c9;
+}
+
+/* nav bar styling */
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1; /* makes nav bar go over images */
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+    padding-right: 7%;
+    padding-left: 20px;
+}
+
+.navContainer {
+    list-style: none;
+    display: flex;
+    background-color: #81D5FF;
+    padding: 0;
+    margin: 0;
+}
+
+.items {
+    padding-right: 50px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+
+}
+/* */
+/* footer styling */ 
+footer {
+    width: 100%;
+    background: #60492C;
+    display: flex;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer div {
+    text-align: center;
+}
+
+.col {
+    padding-left: 15%;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.col p {
+    margin-top: 0px;
+}
+/* */
+/* Header Styling */
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+/* */
+
+/* topRow styling */
+#topRow {
+    padding-top: 100px;
+}
+
+#topRow hr {
+    border-top: 1px dashed tan;
+}
+/* */
+
+#menuContent {
+    text-align: center;
+    padding-bottom: 200px;
+    width: 70%;
+    margin-left: 15%;
+}
+#content1 {
+    display: flex;
+    padding-top: 10px;
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 18px;
+}
+
+#content2 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+#content3 {
+    padding-bottom: 150px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+#content3 iframe {
+    align-items: center;
+}
+
+#topLeft {
+    margin-left: 10%;
+    width: 30%;
+}
+
+#topRight {
+    margin-left: 15%;
+    width: 30%;
+}
+
+#topRight p {
+    text-align: center;
+}
+
+#pic {
+    height: 90%;
+    width: 90%;
+}
+
+
+#bottomLeft {
+    margin-left: 10%;
+    width: 30%;
+}
+
+#bottomLeft img {
+    width: 100%;
+    height: 100%;
+}
+
+#bottomRight {
+    margin-left: 15%;
+    width: 30%;
+}
+
+#accordion h3 {
+    background-color: #81D5FF;
+    color: #60492C;
+    font-family: 'Roboto Slab';
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab6 {
+    background-color: #fdf5c9;
+    width: auto;
+    height: auto;
+}
+
+#content1 {
+    display: flex;
+    padding-top: 10px;
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 18px;
+}
+
+.menuItem {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 18px;
+    background-color: #fdf5c9;
+    padding: auto;
+}
+
+.menuItem h3 {
+    color: #60492C; 
+}
+
+.menuItem table {
+    width: 100%;
+    border-style: none;
+    border: 0px;
+    border-spacing: 3px;
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.menuItem th {
+    height: 40px;
+    padding: 10px;
+    border-width: 0px;
+}
+
+.itemName {
+    font-size: 24px;
+    text-align: center;
+}
+
+.itemDes {
+    text-align: left;
+}
+
+.itemPrice {
+    text-align: left;
+}
+
+
+#promo {
+    background-color: #81D5FF;
+    width: 34%
+}
+
+.items a.selected {
+    color: black;
+    background-color: #fdf5c9;
+}
+
+.items a:visited {
+    color: black;
+}
+
+.items a:hover {
+    color: purple;
+    background-color: #fdf5c9;
+}
+
+footer a {
+    color: rgb(205, 193, 193);
+}
+
+a:visited {
+    color: purple;
+}
+
+/* Slideshow css from w3schools */ 
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Open Sans';
+    padding-left: 11%;
+    background-color: #fdf5c9;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.0s;
+  }
+
+  .mySlides img {vertical-align: middle; width: 55%; height: 55%; padding-left: 23%;} 
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+/* end w3 slideshow css */
+
+
+
+/* contact form */
+form {
+    width: 75%;
+    margin-left: 13%;
+    margin-right: 13%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #81D5FF;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: #60492C;
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* contact table styling */
+
+table {
+    width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #60492C;
+    border-spacing: 3px;
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+th {
+    height: 40px;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#topRight iframe {
+    width: 100%;
+    height: 100%;
+}
+
+html {overflow-y: scroll;}
